@@ -17,7 +17,7 @@ export default class Composer {
     this.genre = genre;
   }
 }
-
+// component details
 @Component({
   selector: 'app-composer-list',
   templateUrl: './composer-list.component.html',
@@ -36,6 +36,7 @@ export class ComposerListComponent implements OnInit {
       new Composer("Joseph Haydn", "Classical")
     ];
   }
+// ngOnInit function
 
   ngOnInit(): void {
   }
