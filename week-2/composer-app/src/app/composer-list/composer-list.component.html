@@ -1,0 +1,30 @@
+<!--
+  Title: composer-list.component.html
+  Author: Megan Walker
+  Date: 06/03/2023
+  Description: Composer list component
+  Source: Professor Krasso, Week 2 Web 425 exercises
+-->
+
+<!-- content to show bootstrap table -->
+<div class="container">
+  <br /><br />
+  <h2 class="text-center">Composer List</h2>
+  <br /><br />
+  <div class="table-responsive p-3">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th class="bg-dark text-light">Full Name</th>
+          <th class="bg-dark text-light">Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let composer of composers">
+          <td>{{ composer.fullName }}</td>
+          <td>{{ composer.genre }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
