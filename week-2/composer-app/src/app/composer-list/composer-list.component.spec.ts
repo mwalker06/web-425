@@ -1,3 +1,11 @@
+/**
+ * Title: composer-list.component.spec.ts
+ * Author: Megan Walker
+ * Date: 06/3/2023
+ * @description: Composer list component spec file
+ * Source: Provided by Professor Krasso, Web 425 exercises
+ */
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ComposerListComponent } from './composer-list.component';

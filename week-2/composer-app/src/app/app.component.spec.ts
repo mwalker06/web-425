@@ -1,3 +1,11 @@
+/**
+ * Title: app.component.spec.ts
+ * Author: Megan Walker
+ * Date: 06/3/2023
+ * @description: App component spec file
+ * Source: Provided by Professor Krasso, Web 425 exercises
+ */
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';

@@ -1,3 +1,11 @@
+/**
+ * Title: app.module.ts
+ * Author: Megan Walker
+ * Date: 06/3/2023
+ * @description: App module for the nodebucket app
+ * Source: Provided by Professor Krasso, Web 425 exercises
+ */
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

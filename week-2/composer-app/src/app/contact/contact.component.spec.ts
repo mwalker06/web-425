@@ -1,3 +1,12 @@
+
+/**
+ * Title: contact.component.ts
+ * Author: Megan Walker
+ * Date: 06/3/2023
+ * @description: Contact component for the nodebucket app
+ * Source: Provided by Professor Krasso, Web 425 exercises
+ */
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ContactComponent } from './contact.component';
