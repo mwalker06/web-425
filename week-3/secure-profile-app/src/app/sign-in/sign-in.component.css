@@ -1,0 +1,13 @@
+/**
+ * Title: sign-in.component.css
+ * Author: Megan Walker
+ * Date: 06/11/2023
+ * Description:  sign-in component css file
+ * Source: Professor Krasso, Week 2 Web 425 - Basic Routing
+ */
+
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
