@@ -1,0 +1,20 @@
+<!--
+  Title: composer-details.component.html
+  Author: Megan Walker
+  Date: 06/11/2023
+  Description: Composer details component
+  Source: Professor Krasso, Week 2 Web 425 exercises
+-->
+
+<!-- content to show bootstrap table -->
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName}}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
