@@ -1,0 +1,13 @@
+/**
+ * Title: composer-list.component.css
+ * Author: Megan Walker
+ * Date: 06/18/2023
+ * description: composer list component css file
+ * Source: Provided by Professor Krasso, Web 425 exercises
+ */
+
+ .textSearch {
+     width: 30%;
+     float: right;
+     margin-bottom: 5px;
+ }
