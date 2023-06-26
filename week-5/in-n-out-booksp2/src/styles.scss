@@ -1,0 +1,47 @@
+/**
+ * Title: styles.scss
+ * Author: Megan Walker
+ * Date: 06/25/2023
+ * description: styles.scss file for the in-n-out-books app
+ * Source: Provided by Professor Krasso, Web 425 exercises
+*/
+
+@import "./theme";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.blue {
+  color: #2196f3;
+}
+
+.green {
+  color: #66bb6a;
+}
+
+.attribution-link {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution-link:hover {
+  text-decoration: underline;
+}
+
+.card-title-icon {
+  text-align: center;
+}
+
+.card-title-icon,
+.mat-icon {
+  font-size: 72px;
+}
+
+.align-center {
+  text-align: center;
+}
