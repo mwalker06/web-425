@@ -1,0 +1,15 @@
+/* Title: base-layout.component
+Author: Megan Walker
+Date: 07-02-2023
+Description: base-layout.component.css for Web-425
+Source: Provided by Professor Krasso, Web 425 exercises */
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
